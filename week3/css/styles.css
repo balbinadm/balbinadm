@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+
+body {
+font-family: Helvetica Neue, sans-serif;
+font-size: 100%;
+margin:0 auto;
+width: 900px;
+text-align: center;
+text-align-last: left;
+
+}
+
+header { 
+ background color:white;
+ font-family: Helvetica Neue, "sans-seriff";
+ 
+}
+
+nav {
+	background-color:white;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-top: 10px;
+	list-style-type: none;
+	
+}
+
+nav ol {
+	background-color:white;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-top: 10px;
+	list-style-type: none;
+	list-style: none;
+	
+}
+ul {
+	list-style-type:none;
+	text-align: left;
+	list-style: none;
+	align-items: center;
+	
+	
+}
+
+nav li {
+	display:inline-block
+	padding: 10px 30px 30px 30px;
+	list-style-type:none;
+	list-style: none;
+	list-style-image: none;
+	
+}
+
+.navlinks:link {
+	color:white;
+	text-decoration: none;	
+	list-style-type: none;
+	align-content:space-between;
+	list-style: none;
+}
+
+.navlinks: visited {
+	color:white;
+	text-decoration: none;
+	list-style: none;
+}
+	
+.navlinks: hover {
+	color: white;
+	list-style: none;
+}
+
+main {
+	background color:white;
+	list-style: none;
+	
+}
+
+article {
+	background-color: white;
+	padding-bottom: 20px;
+	list-style: none;
+}
+
+
+
+footer{
+	text-align: left;
+	background color: white;
+	list-style-type: none
+}
+
+.reference-image {
+	left: 100px;
+	position:relative;
+	
+}
+
+h1 {
+	background-color: white;
+	color:white;
+	font-family: Helvetica Neue, "sans-seriff";
+	font font-size: 2.1875em;
+	padding: 25px 25px 25px 15px;
+	list-style: none;align-content: flex-end
+	
+}
+
+h2 {background-color: white;
+	color:white;
+	font-family: Helvetica Neue, "sans-seriff";
+	font font-size: 2.1875em;
+	padding: 25px 25px 25px 15px;
+	}
+
+h3 {background-color: white;
+	color: black;
+	font-family: Helvetica Neue, "sans-seriff";
+	font font-size: 2.1875em;
+	padding: 25px 25px 25px 15px;
+	text-align:center;
+	}
