@@ -1,0 +1,81 @@
+*{
+margin:0;
+padding:0;
+}
+
+body {
+background-color: white;
+margin: 0 auto;
+max-width: 900px;
+min-width: 20px;
+}
+
+.home {
+padding-top: 25px;
+margin-left: -120px;
+}
+
+
+
+.main {
+min-height: 200px;
+background-color: white;
+margin-left: -150px;
+margin-top: 20px
+}
+
+
+li{
+    list-style-type: none;
+    display:inline-table;
+	padding-top: 20px;
+}
+
+/* Hovering */
+.home a:link{
+	color: #FFF;
+}
+
+.home a:visited{
+	color: #FFF;
+}
+
+.home a:hover{
+	opacity: 0.6;
+	filter: alpha(opacity=60%);
+}
+
+.nav a:link {
+color: #FFF;
+}
+
+.nav a:visited {
+color: #FFF;
+}
+
+.nav a:hover {
+opacity: 0.6;
+filter: alpha(opacity=60);
+}
+
+#weeks {
+	background-color: #FFF;
+}
+
+#weeks a:hover {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+
+/* Hovering end */
+
+
+		
+
+
+
+
+	
+
+
