@@ -81,23 +81,25 @@ margin-left: -100px;
 margin-top: 20px
 }
 
-.sub {
-min-height: 30px;
+#sub {
+min-height: 20px;
 background-color: white;
 padding-left: 750px;
 padding-top: 25px;
 padding-bottom: 25px;
 }
 
-.aboutparagraph {
-	padding-left: 100px;
-	padding-top: 0px;
-	margin-top: -90px;
+.social {
+	display: inline flex;
+	float: right;
 }
 
-.social {
-	display: inline;
+.aboutparagraph {
+	text-align: center;
+	margin-top: -50px;
 }
+
+
 
 .contact {
 	margin-left: 250px;
