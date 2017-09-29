@@ -16,6 +16,9 @@ margin-left: -120px;
 }
 
 
+h2 {
+	text-align: center;
+}
 
 .main {
 min-height: 200px;
