@@ -7,7 +7,7 @@ body {
 background-color: white;
 margin: 0 auto;
 max-width: 900px;
-min-width: 20px;
+min-width: 600px;
 }
 
 .home {
@@ -27,10 +27,14 @@ margin-left: -150px;
 margin-top: 20px
 }
 
+nav {
+	text-align: center;
+}
+
 
 li{
     list-style-type: none;
-    display:inline-table;
+    display:inline-block;
 	padding-top: 20px;
 }
 
@@ -68,6 +72,11 @@ filter: alpha(opacity=60);
 #weeks a:hover {
 	opacity: 0.6;
 	filter: alpha(opacity=60);
+}
+
+footer {
+	font-family: sans-serif;
+	
 }
 
 
