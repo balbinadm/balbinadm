@@ -74,8 +74,8 @@ margin-top: 20px
   color: blue;
   text-align: center;
   padding-bottom: 50px;
-	padding-left: 0px;
-	padding right: 0px;
+	padding-left: 50px;
+	padding right: 50px;
 	
 }
 
@@ -107,6 +107,4 @@ h3 {
 	margin-left: 100px
 }
  
-.gallery {
-	text-align: center;
-}
+
