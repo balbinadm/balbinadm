@@ -207,6 +207,16 @@ h3 {
 
 	a img {
 		padding: 10px;
+		text-align: center;
+		
+		
+	}
+	
+	h3 {
+		text-align: center;
+		max-width: 100%;
+		font-size: 0.5em;
+		margin-left: 70px;
 	}
 }
  
