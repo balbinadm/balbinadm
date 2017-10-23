@@ -78,10 +78,12 @@ filter: alpha(opacity=60);
 /*---------HOVERING END----------*/
 
 .main {
-min-height: 200px;
+min-height: 30px;
 background-color: white;
 margin-left: -100px;
 margin-top: 20px
+
+
 }
 
 #sub {
@@ -98,15 +100,19 @@ padding-bottom: 25px;
 }
 
 .aboutparagraph {
-	text-align: center;
+	text-align: justify;
+	font-family: sans-serif; 
 	padding-bottom: 20px;
 }
 
 
 
 .contact {
-	padding-top: 0px;
+	padding-bottom: 20px;
 	text-align: center;
+	font-family: sans-serif;
+	text-decoration: none;
+	
 	
 }
 
@@ -120,7 +126,76 @@ footer {
 }
 
 /* MEDIA QUIERY */
-@media only screen and (max-width:480px) {
+
+@media only screen and (max-width:800px) {
+	.nav {
+		max-width: 100%;
+		
+	}
+	
+	img {
+		max-width: 60%;
+		text-align: center;
+		margin-left: 150px
+		
+	}
+	
+	footer{
+	max-width: 100%;
+	margin-left: 50px;
+	}
+	
+	.aboutparagraph {
+		text-align: justify;	
+		
+	}
+	
+	.social {
+		max-width: 100%;
+		margin-left: 0px;
+	}
+
+	
+}
+
+@media only screen and (max-width:500px) {
+	.nav {
+		max-width: 100%;
+		
+	}
+	
+	img {
+		max-width: 60%;
+		text-align: center;
+		margin-left: 150px
+		
+	}
+	
+	footer{
+	max-width: 100%;
+	margin-left: 50px;
+	}
+	
+	.aboutparagraph {
+		text-align:justify;
+		padding-right: 50px;
+		padding-left: 50px;
+		font-size: 0.5em;
+		
+		
+	}
+	
+ img .social {
+		max-width: 100%;
+	 	margin left: 0px;
+	}
+	 figure .social {
+		max-width: 100%;
+	 	margin left: 0px;
+	}
+	
+
+@media only screen and (max-width:400px) {
 	
 	.nav {
 		max-width: 100%;
@@ -136,12 +211,28 @@ footer {
 	
 	footer{
 	max-width: 100%;
-	margin-left: auto
+	margin-left: 50px;
+	}
+	
+	.aboutparagraph {
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 0px;
+	font-size: 0.5em;
+		
+	}
+	
+	.social {
+		max-width: 100%;
 	}
 	
 	
 	
-}
+
+
+
+
 
 
 
