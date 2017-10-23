@@ -1,0 +1,125 @@
+*{
+margin:0;
+padding:0;
+}
+
+body {
+background-color: white;
+margin: 0 auto;
+max-width: 600px;
+min-width: 200px;
+}
+
+.home {
+padding-top: 25px;
+margin-left: -120px;
+}
+
+
+
+/*---------HOVERING START----------*/
+.home a:link{
+	color: #FFF;
+}
+
+.home a:visited{
+	color: #FFF;
+}
+
+.home a:hover{
+	opacity: 0.6;
+	filter: alpha(opacity=60%);
+}
+
+.nav a:link {
+color: #FFF;
+}
+
+.nav a:visited {
+color: #FFF;
+}
+
+.nav a:hover {
+opacity: 0.6;
+filter: alpha(opacity=60);
+}
+
+.contact a:link{
+	color: #FFF;
+}
+
+.contact a: visited {
+	color: #FFF;
+
+}
+
+.contact a:hover {
+	opacity: 0.6;
+	filter: alpha (opacity=60%) }
+		
+
+.social a:link {
+color: #FFF;
+}
+
+.social a:visited {
+color: #FFF;
+}
+
+.social a:hover {
+opacity: 0.6;
+filter: alpha(opacity=60);
+}
+
+
+/*---------HOVERING END----------*/
+
+.main {
+min-height: 200px;
+background-color: white;
+margin-left: -100px;
+margin-top: 20px
+}
+
+#sub {
+min-height: 20px;
+background-color: white;
+padding-left: 750px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.social {
+	display: inline flex;
+	float: right;
+}
+
+.aboutparagraph {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+
+.contact {
+	padding-top: 0px;
+	text-align: center;
+	
+}
+
+	
+
+footer {
+	font-family: sans-serif;
+	text-align: left;
+	margin-left: -60px;
+	
+}
+
+@media only screen and (max-width: 480px) {
+    
+}
+
+
+
+
