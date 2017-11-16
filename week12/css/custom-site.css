@@ -1,0 +1,124 @@
+body{
+    color: black;
+    Font: 1.25em Helvetica Neue bold, sans-serif;
+    line-height: 1.8;
+}
+
+footer {
+    color: black;
+    padding-top: 100px;
+	float: left;
+}
+
+header{
+    color: white;
+    padding-bottom: 70px;
+	font-family: sans-serif;
+}
+
+img{
+    height: auto;
+    width: 60%;
+    padding-bottom: 50px;
+
+}
+
+p{
+    font-size: 1em;
+    color: black;
+    
+}
+
+.container-fluid {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.margin {
+    margin-bottom: 2.8em;
+}
+
+.mybackground1 {
+    background-color:white;
+ 
+    width:100%;
+}
+
+.mybackground1 img{
+    width: 30%;
+    
+}
+
+.mybackground2 {
+    background-color: white;
+    padding-bottom: 80px;
+    width:50%;
+}
+
+.mybackground3 {
+    background-color:white;
+}
+
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+	background: white;
+	
+}
+
+.navbar-nav li a:hover {
+    color:red !important;
+}
+
+.navbar-nav {
+	color: black;
+}
+
+.row p {
+margin-top: 2em;
+}
+
+.carousel-inner > .item > img {
+    margin: auto;
+    width: 60%;
+}
+
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 60%;
+	color: white;
+}
+
+.mybackground4 {
+    background-color:white;
+    color:white;
+}
+
+.carousel-caption > h3  {
+	color: white;
+	
+}
+.carousel-caption > p  {
+	color: white;
+	
+}
+
+.mybackground2 > h3 {
+	font-family: helvetica neue;
+	color: grey;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
