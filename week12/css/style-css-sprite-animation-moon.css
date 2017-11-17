@@ -1,0 +1,47 @@
+body {
+    background-color:white;
+    font-family:Helvetica Neue;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+header {
+    min-height: 5em;
+    width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.page-wrapper {
+    background-color:black;
+    min-height: 20em;
+    padding-bottom: 6em;
+    padding-top: 6em;
+    width: 100%
+}
+
+.moon {
+	animation: moon 2.5s infinite steps(7);
+    background: url('../img/Moon.png') 0 0;
+    height: 400px;
+    width: 250px;
+	text-align: center;
+	margin-left: 200px;
+
+}
+
+@keyframes moon {
+    100% {
+        background-position: -3840px;
+    }
+}
+
+.circle {
+    background:black;
+    border-radius: 50%;
+    height: 25em;
+    margin: 0 auto;
+    max-width: 45em;
+}
