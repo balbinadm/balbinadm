@@ -1,0 +1,147 @@
+body {
+    background-color: #E9E9E9;
+    font-family:Helvetica neue;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 60em;
+    min-width: 60em;
+}
+
+.main-nav {
+    background-color: #EAAF31;
+    border-radius: 6px;
+    box-shadow: 0 0 6px 3px #DBDBDB;
+    margin: 2em auto .5em auto;
+    min-height: 5em;
+    width: 80%;
+}
+
+article {
+    background: linear-gradient(#298CAD, #a5b9c9);
+    background-color: #298CAD;
+    border-radius: 6px;
+    box-shadow: 0 0 6px 3px #DBDBDB;
+    margin: 0 auto;
+    min-height: 35em;
+    width: 80%;
+}
+
+.title {
+    color: white;
+    padding-top: .8em;
+    text-align: center;
+}
+
+.site-info {
+    background-color: #A6C444;
+    border-radius: 6px;
+    box-shadow: 0 0 6px 3px #DBDBDB;
+    margin: .5em auto 5em auto;
+    min-height: 5em;
+    width: 80%;
+}
+
+.landscape {
+    height: 25em;
+    margin-left: 4em;
+    margin-top: 2em;
+    overflow: hidden;
+    position: absolute;
+    width: 40em;
+}
+
+.landscape img {
+    margin: 0 auto 0 auto;
+    position: absolute;
+}
+
+.img1-night {
+    animation: fadeout 4s ease-in-out infinite;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+    z-index: 100;
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: .1;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: .9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.img2-day {
+    opacity: 1;
+    z-index: 90;
+}
+
+.img3-moon {
+    animation: moon-move 4s ease infinite;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    height: 6em;
+    outline: 1px solid transparent;
+    transform-origin: 320px 700px;
+    width: 6em;
+    z-index: 50;
+}
+
+@keyframes moon-move {
+    from {
+        transform: rotate(80deg);
+        ;
+    }
+    to {
+        transform: rotate(-30deg);
+        ;
+    }
+    /*
+	from { transform: translate(200px, 250px);}
+	to { transform: translate(200px, 30px);}
+	*/
+}
+
+
+
+.img4-sky-dark {
+    animation: fadeout-night 4s ease-in-out infinite;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+    z-index: 10;
+}
+
+@keyframes fadeout-night {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: .1;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: .9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.img5-sky-day {
+    z-index: 5;
+}
