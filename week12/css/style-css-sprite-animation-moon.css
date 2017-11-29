@@ -24,24 +24,34 @@ header {
 
 .moon {
 	animation: moon 2.5s infinite steps(7);
-    background: url('../img/Moon.png') 0 0;
+    background: url('../img/moonc.png') 0 0;
     height: 400px;
-    width: 250px;
-	text-align: center;
-	margin-left: 200px;
+    width: 280px;
+	margin-left: 350px;
 
 }
 
 @keyframes moon {
-    100% {
-        background-position: -3840px;
+    to {
+        background-position: -2000px;
     }
+}
+	
 }
 
 .circle {
     background:black;
     border-radius: 50%;
-    height: 25em;
     margin: 0 auto;
-    max-width: 45em;
+    max-width: 10em;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-name: moon-cycle;
+	animation-timing-function: linear;
+	position: relative;
+	
+	
+	
+	
 }
+
