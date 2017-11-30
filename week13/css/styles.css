@@ -75,6 +75,7 @@ filter: alpha(opacity=60);
 }
 
 
+
 /*---------HOVERING END----------*/
 
 .main {
@@ -113,9 +114,7 @@ padding-bottom: 25px;
 .contact {
 	padding-bottom: 20px;
 	text-align: center;
-	font-family: sans-serif;
-	text-decoration: none;
-	
+	font-family: sans-serif;	
 	
 }
 
@@ -130,8 +129,10 @@ footer {
 
 
 .content{
-	text-align: center;
-	margin-left: -200px
+	text-align: left;
+	margin-left: -200px;
+	font: helvetica neue bold;
+	font-family: sans-serif;
 
 }
 
@@ -140,6 +141,9 @@ footer {
     display: block;
     width: 50%;
     margin-bottom: 100px;
+	font-family: sans-serif;
+	font: Helvetica Neue;
+	text-align: center;
 /*	text-align: center;*/
 }
 
@@ -157,8 +161,20 @@ footer {
 	max-width: 800px;	
 }
 
+.download {
+	margin-left: -280px;
+	font: helvetica neue bold;
+	color:crimson;
+	text-decoration: none;
+}
 
-	
+.download a:hover{
+	border-bottom: 1px solid black;
+}
+
+.download a:hover{
+	border-bottom: 1px solid crimson;
+}
 
 /* MEDIA QUIERY */
 
