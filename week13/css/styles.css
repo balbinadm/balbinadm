@@ -163,18 +163,19 @@ footer {
 
 .download {
 	margin-left: -280px;
-	font: helvetica neue bold;
-	color:crimson;
-	text-decoration: none;
+	font: Helvetica Neue;
+	font-family: sans-serif;
+	color:black;
 }
 
-.download a:hover{
-	border-bottom: 1px solid black;
+h1 {
+	font-family: sans-serif;
+	font: helvetica neue;
+	font-size:.7em;
+	padding-top: 30px;
+	text-align: center;
 }
 
-.download a:hover{
-	border-bottom: 1px solid crimson;
-}
 
 /* MEDIA QUIERY */
 
