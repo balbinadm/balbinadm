@@ -81,10 +81,13 @@ filter: alpha(opacity=60);
 min-height: 30px;
 background-color: white;
 margin-left: -100px;
-margin-top: 20px
+margin-top: 20px;
+max-width: 900px;
 
 
 }
+
+.video
 
 #sub {
 min-height: 20px;
@@ -125,6 +128,38 @@ footer {
 	
 }
 
+
+.content{
+	text-align: center;
+	margin-left: -200px
+
+}
+
+.video-wrapper{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    margin-bottom: 100px;
+/*	text-align: center;*/
+}
+
+.audio{
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+	text-align: center;
+}
+
+.video{
+    display: block;
+	margin-top: 130px;
+    margin-bottom: 10px;
+	max-width: 800px;	
+}
+
+
+	
+
 /* MEDIA QUIERY */
 
 @media only screen and (max-width:800px) {
@@ -158,7 +193,7 @@ footer {
 	}
 
 	
-}
+
 
 @media only screen and (max-width:500px) {
 	.nav {
@@ -191,10 +226,12 @@ footer {
 		max-width: 100%;
 	 	margin left: 0px;
 	}
-	 figure .social {
+
+figure .social {
 		max-width: 100%;
 	 	margin left: 0px;
 	}
+	
 	
 
 @media only screen and (max-width:400px) {
@@ -228,6 +265,11 @@ footer {
 	.social {
 		max-width: 100%;
 	}
+	
+
+
+	
+	
 	
 	
 	
