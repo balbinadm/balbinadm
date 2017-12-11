@@ -1,0 +1,244 @@
+body {
+    color: black;
+    font: 1.25em Helvetica Neue Bold, sans-serif;
+    line-height: 1.8;
+
+}
+
+p {
+    font-size: 1em;
+	letter-spacing: 1px;
+	color: dimgrey;
+}
+
+header {
+	color: white;
+	padding-bottom: 70px;
+	font-family: sans-serif;
+	
+}
+
+.article {
+	text-align: center;
+}
+
+.sub {
+ height: auto;
+ width: 15%;
+ margin-left: 550px;
+ margin-bottom: -50px;
+ text-align: center;
+ padding-top: 150px;
+
+}
+ 
+h2 {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	max-width: 500px;
+	margin-left: 400px;
+	font: helvetica;
+	color:black;
+	padding-top: 0px;
+	text-align: justify;
+	line-height: 20px;
+	padding bottom: 0px;
+}
+
+.navbar-brand {
+	padding-bottom: 20px;
+	margin-top: -20px;
+	width: 120%;
+}
+
+img{
+    height: auto;
+    width: 60%;
+    padding-bottom: 50px;
+	padding top: 20px;
+}
+
+
+.margin-gap {
+    margin-bottom: 2.8em;
+}
+
+
+.mybackground1 {
+    background-color:white;
+    color: #ffffff;
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.mybackground1 img {
+    text-align: center;
+	width: 80%;
+	margin-top: -40px
+	
+	
+}
+
+.mybackground2 {
+    background-color:white;
+    color:black;
+	width: 50%
+}
+
+.mybackground3 {
+    background-color: #ffffff;
+    color:black;
+}
+
+.mybackground4 {
+    background-color: #ffffff;
+    color:black;
+}
+
+
+.container-fluid {
+	width: 50%;
+	
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 20px;
+	background-color: white;
+	font-family: Helvetica Neue;
+
+	
+}
+
+
+.navbar-nav li a:hover {
+    color:red !important;
+}
+
+.navbar-nav li a {
+	color: black;
+}
+
+.row p {
+    margin-top: 2em;
+}
+
+.carousel-inner > .item > img {
+    margin: auto;
+    width: 60%;
+}
+
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 60%;
+	line-height: 1;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-control.left {
+	background-image: none;
+	color: black;
+	max-width: inherit;
+	
+	
+
+}
+
+.carousel-control.right {
+    background-image: none;
+	color: black;
+	max-width: inherit;
+
+}
+	
+
+figcaption {
+	color: dimgrey;
+	
+}
+
+
+
+.mybackground5 {
+    background-color:white;
+    color:black;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.mybackground6 {
+	
+}
+
+/*---------HOVERING START----------*/
+.navbar-brand a: link{
+	color: #FFF;
+}
+
+.navbar-brand a: visited {
+	color: #FFF;
+}
+
+.navbar-brand a:hover {
+	opacity: 0.6;
+	filter: alpha(opacity=60%);
+}
+
+
+.contact a:link{
+	color: #FFF;
+}
+
+.contact a: visited {
+	color: #FFF;
+
+}
+
+.contact a:hover {
+	opacity: 0.6;
+	filter: alpha (opacity=60%) }
+		
+
+.social a:link {
+color: #FFF;
+}
+
+.social a:visited {
+color: #FFF;
+}
+
+.social a:hover {
+opacity: 0.6;
+filter: alpha(opacity=60);
+}
+
+
+/*---------HOVERING END----------*/
+
+/*---------VIDEO START----------*/
+
+#vid { 
+min-width: 10%; min-height: 10%;
+width: 30%; height: auto; z-index: -100;
+background: url(/video/vid.jpg) no-repeat; 
+}
+
+
+#vid { transition: 1s opacity; 
+}
+
+.stopfade { opacity: .5; 
+}
+/*---------VIDEO END----------*/
+
