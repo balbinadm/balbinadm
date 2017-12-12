@@ -9,7 +9,16 @@ p {
     font-size: 1em;
 	letter-spacing: 1px;
 	color: dimgrey;
+	text-align: justify;
 }
+
+h3 {
+    font-size: 1em;
+	letter-spacing: 1px;
+	color: dimgrey;
+	text-align: center;
+}
+
 
 header {
 	color: white;
@@ -32,18 +41,7 @@ header {
 
 }
  
-h2 {
-	font-family: sans-serif;
-	font-size: 1.2em;
-	max-width: 500px;
-	margin-left: 400px;
-	font: helvetica;
-	color:black;
-	padding-top: 0px;
-	text-align: justify;
-	line-height: 20px;
-	padding bottom: 0px;
-}
+
 
 .navbar-brand {
 	padding-bottom: 20px;
@@ -106,7 +104,7 @@ img{
     border: 0;
     border-radius: 0;
     font-size: 12px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     margin-bottom: 0;
     padding-bottom: 15px;
     padding-top: 20px;
@@ -121,9 +119,6 @@ img{
     color:red !important;
 }
 
-.navbar-nav li a {
-	color: black;
-}
 
 .row p {
     margin-top: 2em;
@@ -151,7 +146,6 @@ img{
 	color: black;
 	max-width: inherit;
 	
-	
 
 }
 
@@ -177,9 +171,12 @@ figcaption {
 	text-align: center;
 }
 
-.mybackground6 {
+.mybackground5 img{
+   width: 20%;
 	
 }
+
+.
 
 /*---------HOVERING START----------*/
 .navbar-brand a: link{
